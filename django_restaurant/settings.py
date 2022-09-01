@@ -89,14 +89,14 @@ WSGI_APPLICATION = 'django_restaurant.wsgi.application'
 #         "PORT": os.environ.get("SQL_PORT", "5432"),
 #     }
 # }
-"""Change HOST to localhost if want to use not in docker"""
+"""Change HOST to db if want to use with docker"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'restaurant_service',
         'USER': 'postgres',
         'PASSWORD': 'root',
-        'HOST': 'db',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
