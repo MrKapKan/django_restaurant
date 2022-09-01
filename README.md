@@ -25,4 +25,4 @@ Now you can use your admin profile to interact with apis.
 - To select a menu for an employee, use ../employee/menu/<int:pk>/ where pk is an index of menu in db
 - To get a token go to ../token/
 # Docker
- Added docker file, added docker compose file. I tried to create an image and run the container. An error occurred while creating the container. There was not enough time allotted to fix it
+ Added docker file, added docker compose file. Created and launched a docker container, but requests do not go through postman. Couldn't solve the problem due to time limit
