@@ -8,6 +8,11 @@ This is a food selection app by company employees. There is the following functi
 - Getting current day menu
 - Getting results for the current day
 # Run
+To run via docker. Use the command docker-compose up -d --build.
+After you can create superuser (python manage.py createsuperuser)
+Use link localhost:8000/......
+
+If you want run server without docker
 - Download the project and install requirements 
 - Launch virtual environment. 
 - Create postgresql db with name 'restaurant_service' 
