@@ -1,5 +1,10 @@
 # django_restaurant
 ## About
+A company needs internal service for its 'employees which helps them to
+make a decision at the lunch place. Each restaurant will be uploading menus
+using the system every day over API.
+Employees will vote for the menu before leaving for lunch on a mobile app
+for whom the backend has to be implemented.
 This is a food selection app by company employees. There is the following functionality:
 - Authentication
 - Creating restaurant
